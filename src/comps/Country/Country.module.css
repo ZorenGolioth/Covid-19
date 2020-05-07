@@ -1,0 +1,42 @@
+.container {
+    margin: 50px 0;
+}
+
+.grid {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.1rem;
+}
+
+.card1 {
+    background: darkcyan;
+  font-size: 2rem;
+  color: white;
+  padding: 2rem;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.card2 {
+    background: darkcyan;
+  font-size: 2rem;
+  color: white;
+  padding: 2rem;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.card3 {
+    background: darkcyan;
+  font-size: 2rem;
+  color: white;
+  padding: 2rem;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
