@@ -11,7 +11,7 @@ const Country = ({ data2: {confirmed, recovered, deaths}}) => {
             <ul className={styles.grid}>
                 <ul className={styles.card1}>
            
-           <h5>P O S I T I F</h5>
+           <h5>P O S I T I V E</h5>
            <p>{confirmed.value}</p>
         
            </ul>

@@ -13,10 +13,13 @@ const CountrySelect = ({handleCountryChange}) => {
     }, [setFetchedCountries]);
 
     return (
+        <div>
         <select  onChange={(event) => handleCountryChange(event.target.value)}>
-       <option value="">Global Cases</option>
+       <option value="">Select Country</option>
+       
        {fetchedCountries.map((country, i) => <option key={i} value={country}>{country}</option>)}
        </select>
+       </div>
     )
 }
 
